@@ -1,0 +1,24 @@
+:root {
+    --backgrond-color:orange;
+    --header-background-color:cyan;
+    --text-color:white;
+    --menu-text-color:white;
+    --mouseover-color:red;
+}
+
+body {
+    background-color:var(--backgrond-color);
+    color: var(--text-color);
+}
+
+#pane1{
+    background-color: var(--header-background-color);
+}
+
+li a{
+    color: var(--menu-text-color);
+}
+
+li a:hover{
+    color: var(--mouseover-color);
+}
