@@ -1,10 +1,11 @@
 :root {
     --backgrond-color:orange;
-    --menu-column-background-color:#0d7978;
-    --content-column-background-color:white;
+    --menu-column-background-color:cyan;
+    --content-column-background-color:orange;
     --text-color:white;
-    --menu-text-color:white;
-    --mouseover-color:red;
+    --menu-text-color:orange;
+    --mouseover-color:white;
+    --mouseover-background-color:orange;
 }
 
 body {
@@ -24,5 +25,6 @@ li a{
 }
 
 li a:hover{
+    background-color: var(--mouseover-background-color);
     color: var(--mouseover-color);
 }
