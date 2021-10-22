@@ -107,9 +107,16 @@ li a:hover {
 }
 
 /* Video player styling */
-#videoPlayer {
+video {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10%;
 } 
+
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+}
