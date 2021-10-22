@@ -9,18 +9,32 @@
     </head>
     <body>
         <section id="pane1"> 
-               <ul>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="themes.html">Themes</a></li>
-                   <li><a href="video.html">Videos</a></li>
-                   <li><a href="audio.html">Audio</a></li>
-               </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="themes.html">Themes</a></li>
+                <li><a href="Challenge1_2.html">Challenge 1 & 2</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="Challenge3.html">Challenge 3</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="Challenge4.html">Challenge 4</a></li>
+            </ul>
         </section>
-        <section id="pane2"> 
+        <section id="pane2" class="rightcol"> 
+            <!-- <div class="rightcol"> -->
             <video controls autoplay="true" width="1080px" id="videoPlayer">
                 <source src="videos/raptors_kawhi_shot.mp4" type="video/mp4">
+
+                <!-- You can add more than one source element, for web browsers 
+                that can't play certfain file formats.-->
+                
                 <track labal="English" kind="subtitles" srclang="en" src="videos/captions/raptors_kawhi_shot.vtt" default>
+                Your browser does not support the video element.
             </video>
+            <p>
+                <i>May 12, 2019
+                    On May 12, 2019, Kawhi Leonard hit a contested baseline jumper over Joel Embiid that bounced on the rim four times before falling in</i> 
+            </p>
+        <!-- </div> -->
         </section>
     </body> 
 </html>

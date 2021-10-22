@@ -1,6 +1,7 @@
 :root {
     --backgrond-color:orange;
-    --header-background-color:cyan;
+    --menu-column-background-color:#0d7978;
+    --content-column-background-color:white;
     --text-color:white;
     --menu-text-color:white;
     --mouseover-color:red;
@@ -12,9 +13,12 @@ body {
 }
 
 #pane1{
-    background-color: var(--header-background-color);
+    background-color: var( --menu-column-background-color);
 }
 
+#pane2 {
+    background-color:var(--content-column-background-color);
+}
 li a{
     color: var(--menu-text-color);
 }

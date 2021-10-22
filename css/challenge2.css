@@ -1,0 +1,26 @@
+:root {
+    --backgrond-color:black;
+    --header-background-color:black;
+    --text-color:black;
+    --menu-text-color:black;
+    --mouseover-color:black;
+}
+
+body {
+    /* YOUR CODE GOES HERE */
+}
+
+#pane1{
+    /* YOUR CODE GOES HERE */
+}
+
+#pane2 {
+    /* YOUR CODE GOES HERE */
+}
+li a{
+    /* YOUR CODE GOES HERE */
+}
+
+li a:hover{
+    /* YOUR CODE GOES HERE */
+}
