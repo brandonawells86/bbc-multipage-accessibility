@@ -1,3 +1,6 @@
+
+
+
 function fontSize(change, factor) {
     var f = parseInt(factor);
     var body = document.body; 

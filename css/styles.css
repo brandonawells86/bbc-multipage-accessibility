@@ -83,6 +83,10 @@ li a:hover {
     width: 120px;
 }
 
+#fontsize{
+    margin-bottom: 10px;
+}
+
 
 .switch {
     border: 2px solid black;
