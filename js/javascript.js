@@ -1,8 +1,8 @@
 function fontSize(change, factor) {
     var f = parseInt(factor);
     var body = document.body; 
-    style = window.getComputedStyle(body, null).getPropertyValue('font-size');
-    currentSize = parseFloat(style);
+    var style = window.getComputedStyle(body, null).getPropertyValue('font-size');
+    var currentSize = parseFloat(style);
     
     if (change=='inc'){
         body.style.fontSize = (currentSize + f) + 'px';
